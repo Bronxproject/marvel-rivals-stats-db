@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>local.marvel-rivals-stats-db</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/rafaelgonzalez/Documents/Codex/2026-06-04/files-mentioned-by-the-user-marvel/outputs/marvel_rivals_stats_db/daily_update.sh</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/rafaelgonzalez/Documents/Codex/2026-06-04/files-mentioned-by-the-user-marvel/outputs/marvel_rivals_stats_db</string>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>8</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/Users/rafaelgonzalez/Documents/Codex/2026-06-04/files-mentioned-by-the-user-marvel/outputs/marvel_rivals_stats_db/daily_update.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/rafaelgonzalez/Documents/Codex/2026-06-04/files-mentioned-by-the-user-marvel/outputs/marvel_rivals_stats_db/daily_update.err</string>
+</dict>
+</plist>
